@@ -1,0 +1,38 @@
+# Android / Gradle
+.gradle/
+build/
+*/build/
+local.properties
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+
+# Generated packages and signing material
+*.apk
+*.ap_
+*.aab
+*.aar
+*.jks
+*.keystore
+key.properties
+google-services.json
+
+# Native / profiling outputs
+.cxx/
+.externalNativeBuild/
+captures/
+*.hprof
+
+# Server-side private configuration
+config.php
+server/backup-api/config.php
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# OS noise
+.DS_Store
+Thumbs.db
